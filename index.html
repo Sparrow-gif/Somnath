@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - MR CODE</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--Font Family-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-switch@3.3.4/dist/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!-- Navigation Bar with Offcanvas Sidebar -->
+  <header class="shadow-sm fixed-top">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Brand Name with Image -->
+      <a class="navbar-brand text-2xl d-flex align-items-center" style="color:var(--text-color);" href="#home">
+        <img src="brand.webp" alt="MR CODER Logo" class="me-2" style="height: 30px;" draggable="false"> MR CODER
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Offcanvas Sidebar -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="sidebarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <!-- Nav Links with Bootstrap Icons and Hover Effect -->
+            <li class="nav-item">
+              <a class="nav-link text-green-700 hover-effect" href="#home"> <i class="bi bi-house-door"></i> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green-700 hover-effect" href="#about"> <i class="bi bi-person"></i> About Me </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green-700 hover-effect" href="#skills"> <i class="bi bi-person"></i> Skills </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green-700 hover-effect" href="#services"> <i class="bi bi-gear"></i> Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green-700 hover-effect" href="#project"> <i class="bi bi-folder"></i> Projects </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-green-700 hover-effect" href="#contact"> <i class="bi bi-telephone"></i> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="row hero-content">
+        <!-- Left Content -->
+        <div class="col-md-6 hero-text">
+          <h3> Hii, There </h3>
+          <h1> I Am <span class="multiText"> </span> </h1>
+          <p class="lead">I'm a Web Developer with extensive experience for over 5 years. I create websites, graphic designs, and much more.</p>
+          <a href="#portfolio" class="btn btn-custom"> Hire Me <i class="bi bi-arrow-right"></i> </a>
+        </div>
+        <!-- Right Image -->
+        <div class="col-md-6 hero-image text-center mt-2">
+          <img src="IMG.png" alt="Profile" class="img-fluid" draggable="false">
+        </div>
+      </div>
+    </div>
+    <!-- Bubble Animation -->
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </section>
+
+
+
+  <!-- About Section -->
+<section id="about" class="add-color py-5">
+  <div class="container">
+       <h2 class="text-center mb-4">About <span> Me </span> </h2>
+       <div class="row">
+           <div class="col-md-4">
+               <div class="profile-container">
+                 <div class="profile-img">
+                      <img src="IMG.png" alt="Profile Image" class="img-fluid rounded-circle" draggable="false">
+                 </div>
+              </div>
+           </div>
+           <div class="col-md-8 my-4">
+               <h3> Frontend Developer! </h3>
+               <p>
+                  I am a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development and have experience with HTML, CSS, JavaScript, and various frameworks like Bootstrap and React.
+              </p>
+
+              <h3 class="mt-4"> You Can Follow Me also Here </h3>
+              <!-- Social Media Buttons -->
+              <div class="social-buttons">
+                  <a href="https://twitter.com/yourprofile" target="_blank" class="btn btn-twitter">
+                      <i class="bi bi-twitter"></i> Twitter
+                  </a>
+                  <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn btn-linkedin">
+                      <i class="bi bi-linkedin"></i> LinkedIn
+                  </a>
+                  <a href="https://github.com/yourprofile" target="_blank" class="btn btn-github">
+                      <i class="bi bi-github"></i> GitHub
+                  </a>
+                  <a href="https://instagram.com/yourprofile" target="_blank" class="btn btn-instagram">
+                      <i class="bi bi-instagram"></i> Instagram
+                  </a>
+              </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+
+
+ <section class="container tab-content p-3 mt-3" id="skills">
+        <h2 class="text-center"> Technical <span> Skills </span> </h2>
+        <p class="text-center">
+           I am an intermediat in web Development, Graphic Design, HTML, PHP. So I guarantee that you will find high quality and uniqueness in my work.
+       </p>
+
+        <div class="skills py-2">
+            <div class="mb-4">
+                <h5> CSS / SASS </h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">90%</div>
+                    <div class="skill-bar-fill bg-primary" data-width="90%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>JavaScript </h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">60%</div>
+                    <div class="skill-bar-fill bg-success" data-width="60%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>Adobe Photoshop</h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">75%</div>
+                    <div class="skill-bar-fill bg-danger" data-width="75%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>HTML</h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">95%</div>
+                    <div class="skill-bar-fill bg-info" data-width="95%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>PHP</h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">50%</div>
+                    <div class="skill-bar-fill bg-warning" data-width="50%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>Bootstrap</h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">85%</div>
+                    <div class="skill-bar-fill bg-danger" data-width="85%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>C</h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">70%</div>
+                    <div class="skill-bar-fill bg-info" data-width="70%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>C++</h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">55%</div>
+                    <div class="skill-bar-fill bg-warning" data-width="55%"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5>git / gitHub </h5>
+                <div class="skill-bar">
+                    <div class="percentage-label">55%</div>
+                    <div class="skill-bar-fill bg-success" data-width="70%"></div>
+                </div>
+            </div>
+        </div>
+         
+    </section>
+
+
+
+<!-- Services Section -->
+<section id="services" class="">
+    <div class="container">
+      <h2 class="text-center"> <span> My </span> Services</h2>
+
+      <div class="row justify-content-start mt-4">
+
+            <!-- Web Design -->
+            <div class="col-md-4 mb-4" data-aos="fade-up-right">
+                <div class="service-card" style="background-color: #5b5bf1;">
+                    <div class="service-icon">
+                        <img src="https://img.icons8.com/color/96/000000/web-design.png" alt="Web Design Icon" draggable="false">
+                    </div>
+                    <div class="service-title">Web Design</div>
+                    <div class="service-description">
+                        I create modern and responsive websites tailored to your needs.
+                    </div>
+                </div>
+            </div>
+            <!-- SEO -->
+            <div class="col-md-4 mb-4" data-aos="fade-up-left">
+                <div class="service-card" style="background-color: #9b59b6;">
+                    <div class="service-icon">
+                        <img src="https://img.icons8.com/color/96/000000/combo-chart.png" alt="Analysis Icon" draggable="false">
+                    </div>
+                    <div class="service-title">SEO</div>
+                    <div class="service-description">
+                        I optimize your website to rank higher in search engine results and attract more traffic.
+                    </div>
+                </div>
+            </div>
+            <!-- Content Writing -->
+            <div class="col-md-4 mb-4" data-aos="fade-up-right">
+                <div class="service-card" style="background-color: #5bb9f1;">
+                    <div class="service-icon">
+                        <img src="https://img.icons8.com/color/96/000000/edit-property.png" alt="Content Writing Icon" draggable="false">
+                    </div>
+                    <div class="service-title">Content Writing</div>
+                    <div class="service-description">
+                        I provide engaging and high-quality content that speaks to your audience.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="fade-up-left">
+                <div class="service-card" style="background-color: #e67e22;">
+                    <div class="service-icon">
+                        <img src="https://img.icons8.com/color/96/000000/graph.png" alt="Analysis Icon" draggable="false">
+                    </div>
+                    <div class="service-title">Analysis</div>
+                    <div class="service-description">
+                        Providing in-depth analysis and insights to help you make data-driven decisions.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+  </section>
+
+
+<!-------------------------------------------------------------------
+ --------------------------- Portfolio Section ----------------------
+ -------------------------------------------------------------------->
+
+
+<section id="project" class="add-color py-5">
+  <div class="container">
+    <h2> My <span> projects </span> </h2>
+
+       <div class="text-center mb-4">
+           <button class="btn btn-outline-primary filter-btn active" data-filter="all">All</button>
+           <button class="btn btn-outline-info filter-btn" data-filter="graphic">Graphic Design</button>
+           <button class="btn btn-outline-info filter-btn" data-filter="android">Android Studio</button>
+           <button class="btn btn-outline-info filter-btn" data-filter="web">Web Script</button>
+      </div>
+
+
+       <div class="grid-container" id="grid-container">
+            <div class="grid-item show graphic">
+                <div class="image-container">
+                    <img src="https://picsum.photos/id/1011/300/200" alt="Sample Image 1" loading="lazy" draggable="false">
+                    <div class="icon-overlay">
+                        <i class="bi bi-eye-fill icon" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImageModal('https://picsum.photos/id/1011/600/400')"></i>
+                        <i class="bi bi-link-45deg icon" onclick="window.location.href='https://www.example1.com'"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item show android">
+                <div class="image-container">
+                    <img src="https://picsum.photos/id/1025/300/200" alt="Sample Image 2" loading="lazy" draggable="false">
+                    <div class="icon-overlay">
+                        <i class="bi bi-eye-fill icon" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImageModal('https://picsum.photos/id/1025/600/400')"></i>
+                        <i class="bi bi-link-45deg icon" onclick="window.location.href='https://www.example2.com'"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item show graphic">
+                <div class="image-container">
+                    <img src="https://picsum.photos/id/1027/300/200" alt="Sample Image 3" loading="lazy" draggable="false">
+                    <div class="icon-overlay">
+                        <i class="bi bi-eye-fill icon" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImageModal('https://picsum.photos/id/1027/600/400')"></i>
+                        <i class="bi bi-link-45deg icon" onclick="window.location.href='https://www.example3.com'"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  </div>
+</section>
+
+
+<!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Image Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="Sample Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-------------------------------------------------------------------
+ --------------------------- Contact Section ------------------------
+ -------------------------------------------------------------------->
+<section id="contact" class="py-5">
+   <div class="container">
+       <h2 class="text-center"> <span> Get in </span> Touch </h2>
+       <p class="text-center"> We'd love to hear from you! Reach out to us using the details below. </p>
+       <form class="mt-5">
+           <div class="row mb-3">
+               <div class="col-md-6 mb-3">
+                   <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+               </div>
+               <div class="col-md-6">
+                   <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+               </div>
+           </div>
+           <div class="mb-3">
+               <textarea id="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+           </div>
+           <button type="submit" class="btn btn-success"><i class="bi bi-envelope-fill"></i> Send Message</button>
+       </form>
+    </div>
+</section>
+
+ <!-------------------------------------------------------------------
+ --------------------------- Footer Section --------------------------
+ -------------------------------------------------------------------->
+<footer class="footer text-center py-4">
+  <p class="text-light">&copy; 2023 MR CODER. All rights reserved.</p>
+</footer>
+
+
+<!-------------------------------------------------------------------
+ -------------------------- Go to Top Button ------------------------
+ -------------------------------------------------------------------->
+  <div class="go-top">
+    <button class="btn" onclick="scrollToTop()">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+  </div>
+
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Include Darkmode.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script src="main.js" defer> </script>
+    
+</body>
+</html>
+
