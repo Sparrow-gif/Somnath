@@ -181,7 +181,6 @@
   margin-bottom: 1.5rem;
 }
 .hero-image img {
-  width: clamp(50%, 80vw, 100%);  
   max-width: 60%;
   padding:2px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
@@ -240,8 +239,8 @@
         }
 
         .profile-img {
-            width: clamp(200px, 50vw, 500px);
-            height: clamp(150px, 30vw, 400px);
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             position: relative;
             overflow: hidden;
