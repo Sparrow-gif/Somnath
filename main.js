@@ -121,10 +121,11 @@ document.getElementById("contact").addEventListener("submit", function(event){
          };
 
 
-  // Loader for page loading
-       window.addEventListener('load', function() {
-          document.getElementById('loader').style.display = 'none';
-       })
+  // Loader for page loading Minimum 2 seconds loader
+        setTimeout(function () {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        }, 2000);
 
 
 
