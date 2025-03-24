@@ -32,7 +32,18 @@
         );
 
         sections.forEach(section => observer.observe(section));
-    })
+    });
+
+ // Loader for page loading
+       window.addEventListener('load', function() {
+          document.getElementById('loader').style.display = 'none';
+       })
+
+
+
+
+
+
 
 
 
