@@ -34,17 +34,6 @@
         sections.forEach(section => observer.observe(section));
     });
 
- // Loader for page loading
-       window.addEventListener('load', function() {
-          document.getElementById('loader').style.display = 'none';
-       })
-
-
-
-
-
-
-
 
 
 document.getElementById("contact").addEventListener("submit", function(event){
@@ -129,4 +118,19 @@ document.getElementById("contact").addEventListener("submit", function(event){
 
          function showImageModal(imageSrc) {
             document.getElementById('modalImage').src = imageSrc;
-         }  
+         };
+
+
+  // Loader for page loading
+       window.addEventListener('load', function() {
+          document.getElementById('loader').style.display = 'none';
+       })
+
+
+
+
+
+
+
+
+
