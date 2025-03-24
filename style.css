@@ -280,7 +280,7 @@
         }
 
         .profile-container::after {
-            border: 4px dashed rgba(255, 255, 255, 0.5);
+            border: 4px dashed rgba(255, 255, 255, 0.8);
             animation: rotate-reverse 6s linear infinite;
         }
 
