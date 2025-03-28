@@ -17,6 +17,9 @@
 
             --add-color: #F8F9FA ; /* about, project section bg-color */
 
+            --toggle-icon-filter: invert(0);
+            --close-btn-filter: invert(0);
+
              --hover-color : #B771E5;
              --footer: #212529 ;
 
@@ -48,6 +51,9 @@
                 --h2-span-color: #B771E5 ;
 
                 --add-color: #272C4C;
+
+                --toggle-icon-filter: invert(1);
+                --close-btn-filter: invert(1);
 
                 --hover-color : #B771E5;
                 --footer: #272C4C;
@@ -146,6 +152,17 @@
             width: 300px;
         }
 
+     .navbar-toggler-icon {
+            filter: var(--toggle-icon-filter);
+        }
+
+        .navbar-brand, .offcanvas-title {
+            color: var(--brand-color);
+        }
+
+        .btn-close {
+            filter: var(--close-btn-filter);
+        }
 /**************************************************************/
 
   .nav-link.active {
